@@ -144,4 +144,5 @@ header h1 {
     font-size: 20px; /* Kecilin font judul biar muat */
     margin: 0;
     text-align: left;
+    tqxt-transform: uppercase; /* Biar semua huruf jadi kapital */
 }
