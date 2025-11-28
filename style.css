@@ -40,3 +40,17 @@ nav a:hover {
     display: block; /* Biar dia menguasai baris */
     margin: 0 auto; /* Trik sakti bikin gambar ke tengah */
 }
+
+/* Container pembungkus biar konten ada di tengah & gak mepet */
+.container {
+    max-width: 800px; /* Lebar maksimal tulisan (biar gak kepanjangan) */
+    margin: 0 auto;   /* Posisikan kardus ini di tengah layar */
+    padding: 30px;    /* Jarak napas di dalam kardus */
+    background-color: white; /* Biar latarnya putih bersih */
+}
+
+p {
+    line-height: 1.6; /* Jarak antar baris */
+    margin-bottom: 15px; /* Jarak antar paragraf */
+}
+

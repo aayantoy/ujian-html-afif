@@ -20,44 +20,49 @@
     </header>
 </head>
 <body>
-    <h3>Formulir Pemesanan</h3>
-    <form action="/submit_order" method="post">
-        <label for="name">Nama Lengkap:</label><br>
-        <input type="text" id="name" name="name" required><br><br>
+    <main>
+        <div class="container">
+            <h3>Formulir Pemesanan</h3>
+            <form action="/submit_order" method="post">
+                <label for="name">Nama Lengkap:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
 
-        <label for="alamat" method="post">Alamat Pengiriman</label><br>
-        <input type="text" id="alamat" name="alamat" required><br><br>
+                <label for="alamat" method="post">Alamat Pengiriman</label><br>
+                <input type="text" id="alamat" name="alamat" required><br><br>
 
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email" required><br><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
 
-        <label for="phone">Nomor Telepon:</label><br>
-        <input type="tel" id="phone" name="phone" required><br><br>
+                <label for="phone">Nomor Telepon:</label><br>
+                <input type="tel" id="phone" name="phone" required><br><br>
 
-        <label for="variant">Pilih Varian Wuling Air EV:</label><br>
-        <select id="variant" name="variant" required>
-            <option value="standar">Standar</option>
-            <option value="semi_custom">Semi Custom</option>
-            <option value="full_custom">Full Custom</option>
-            <option value="special_carbon">Special Carbon</option>
-        </select><br><br>
+                <label for="variant">Pilih Varian Wuling Air EV:</label><br>
+                <select id="variant" name="variant" required>
+                    <option value="standar">Standar</option>
+                    <option value="semi_custom">Semi Custom</option>
+                    <option value="full_custom">Full Custom</option>
+                    <option value="special_carbon">Special Carbon</option>
+                </select><br><br>
 
-        <label for="paket">Pilih Paket</label><br>
-        <input type="radio" name="paket" id="paket">Standar<br>
-        <input type="radio" name="paket" id="paket">Full bonus<br><br>
+                <label for="paket">Pilih Paket</label><br>
+                <input type="radio" name="paket" id="paket">Standar<br>
+                <input type="radio" name="paket" id="paket">Full bonus<br><br>
 
-        <label for="metode-pembayaran">Pilih Metode pembayaran</label><br>
-        <select name="metode-pembayaran" id="metode-pembayaran"><br>
-            <option value="" disabled selected>-- Metode Pembayaran --</option>
-            <option value="bank_transfer">Bank Transfer</option>
-            <option value="credit_card">Kartu Kredit</option>
-            <option value="e_wallet">E-Wallet</option>
-        </select><br><br>
+                <label for="metode-pembayaran">Pilih Metode pembayaran</label><br>
+                <select name="metode-pembayaran" id="metode-pembayaran"><br>
+                    <option value="" disabled selected>-- Metode Pembayaran --</option>
+                    <option value="bank_transfer">Bank Transfer</option>
+                    <option value="credit_card">Kartu Kredit</option>
+                    <option value="e_wallet">E-Wallet</option>
+                </select><br><br>
 
-        <textarea name="catatan" id="catatan" cols="30" rows="3">Catatan Untuk Kurir</textarea><br><br>
+                <textarea name="catatan" id="catatan" cols="30" rows="3">Catatan Untuk Kurir</textarea><br><br>
 
-        <input type="checkbox"> Saya menyetujui syarat dan ketentuan yang berlaku<br><br>
-        <input type="submit" value="Pesan Sekarang"><br>
+                <input type="checkbox"> Saya menyetujui syarat dan ketentuan yang berlaku<br><br>
+                <input type="submit" value="Pesan Sekarang"><br>
+            </form>
+        </div>
+    </main>
 </body>
 <footer>
     <p>&copy; 2024 Mahabbatul Musthofa Motors. All rights reserved.</p>
