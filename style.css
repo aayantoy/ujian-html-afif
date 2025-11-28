@@ -111,3 +111,37 @@ button, input[type=submit] {
 button:hover, input[type=submit]:hover {
     background-color: #e67e22; /* Warnanya jadi lebih terang dikit */
 }
+
+header {
+    background-color: #2c3e50;
+    padding: 15px 0; /* Padding atas bawah aja */
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    
+    /* INI MANTRA AJAIBNYA */
+    display: flex; /* Bikin isinya berbaris ke samping */
+    justify-content: space-between; /* Satu mentok kiri, satu mentok kanan */
+    align-items: center; /* Rata tengah secara vertikal */
+}
+
+/* Biar Logo dan Judul rapi sebelahan juga */
+.logo1 {
+    display: flex; 
+    align-items: center;
+    gap: 15px; /* Jarak antara gambar logo dan tulisan */
+}
+
+.logo {
+    width: 60px; /* Logo kecilin lagi pas di pojok */
+    margin: 0;   /* Hapus margin lama */
+}
+
+header h1 {
+    font-size: 20px; /* Kecilin font judul biar muat */
+    margin: 0;
+    text-align: left;
+}
