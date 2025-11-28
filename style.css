@@ -1,0 +1,42 @@
+/* 1. Reset Dasar (Wajib biar gak ada jarak aneh) */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 2. Body (Seluruh Halaman) */
+body {
+    background-color: #f4f4f4; /* Abu-abu muda enak di mata */
+    font-family: Arial, Helvetica, sans-serif; /* Bye-bye Times New Roman */
+    color: #333; /* Warna teks abu gelap, bukan hitam pekat */
+}
+
+/* 3. Header & Footer (Kepala & Kaki) */
+header, footer {
+    background-color: #2c3e50; /* Biru Gelap Profesional */
+    color: white; /* Teks jadi putih biar kebaca */
+    text-align: center; /* Teks ke tengah */
+    padding: 20px; /* Jarak napas di dalem kotak */
+}
+
+/* 4. Link Navigasi */
+nav a {
+    color: white;
+    text-decoration: none; /* Hilangin garis bawah jelek */
+    margin: 0 10px; /* Jarak antar menu */
+    font-weight: bold;
+}
+
+/* 5. Navigasi pas disentuh mouse (Hover) */
+nav a:hover {
+    color: #f1c40f; /* Jadi warna Emas pas disorot */
+    text-decoration: underline;
+}
+
+/* Pake Titik (.) buat manggil Class */
+.logo-utama {
+    width: 150px; /* Kita kecilin paksa */
+    display: block; /* Biar dia menguasai baris */
+    margin: 0 auto; /* Trik sakti bikin gambar ke tengah */
+}
